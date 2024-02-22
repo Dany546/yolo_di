@@ -1,0 +1,5 @@
+names:
+  0: vehicle
+test: E:\FedYOLO\data\coco\test.txt
+train: E:\FedYOLO\data\coco\train.txt
+val: E:\FedYOLO\data\coco\val.txt

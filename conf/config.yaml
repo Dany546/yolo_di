@@ -1,0 +1,28 @@
+root: /auto/home/users/d/a/darimez/FedYOLO/
+
+coalition:
+    n_models: 3
+
+init_model: yolov8n.yaml
+
+data:
+    path: /auto/home/users/d/a/darimez/DOTA/train_clean/    # /auto/home/users/d/a/darimez/DOTA/train_clean/
+    data_sizes: [2000, 2000, 2000]
+    val: 1000
+    test: 1000
+
+active:
+    strategy: random
+    labelled_perc: 0.2
+    annotation_budget: 0.05
+    rounds: 6
+
+optimiser:
+    epochs: 120   # epochs between each aggregation
+
+name: fedyolo
+wandb:
+    entity: dany404
+    project: yolov8 
+    
+compute_norm: True

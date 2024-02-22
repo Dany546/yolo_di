@@ -1,0 +1,6 @@
+names:
+  0: vehicle
+test: /auto/home/users/d/a/darimez/FedYOLO/runs/420EE6_fedyolo_walt/0/test.txt
+train: /auto/home/users/d/a/darimez/FedYOLO/runs/420EE6_fedyolo_walt/0/train.txt
+unlabelled: /auto/home/users/d/a/darimez/FedYOLO/runs/420EE6_fedyolo_walt/0/unlabelled.txt
+val: /auto/home/users/d/a/darimez/FedYOLO/runs/420EE6_fedyolo_walt/0/val.txt
